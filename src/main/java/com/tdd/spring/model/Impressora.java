@@ -30,7 +30,7 @@ public class Impressora {
         }
         System.out.println("** FORMA PAGAMENTO **");
         for(CarrinhoFormaPagamento listaFP : getCarrinho().getListaFormaPagamento()){
-            System.out.println(listaFP.getFormaPagamento() + " " + listaFP.getValorCompra());
+            System.out.println(listaFP.getFormaPagamento().getDescricao() + " " + listaFP.getValorCompra());
         }
         System.out.println("Valor Total Bruto: " + valorTotalBruto);
         System.out.println("Ticket Promocional de " + getCarrinho().getTicketPromocional().getPercentualPromocao());

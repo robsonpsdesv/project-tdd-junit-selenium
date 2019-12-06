@@ -11,7 +11,7 @@ public class CarrinhoFormaPagamento {
 
     private double valorCompra;
 
-    @OneToMany
+    @OneToOne
     private FormaPagamento formaPagamento;
 
     public CarrinhoFormaPagamento() {

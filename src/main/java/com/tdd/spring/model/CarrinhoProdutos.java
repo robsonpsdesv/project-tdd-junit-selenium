@@ -11,7 +11,7 @@ public class CarrinhoProdutos {
 
     private double qtde;
 
-    @OneToMany
+    @OneToOne
     private Produto produto;
 
     public CarrinhoProdutos() {
