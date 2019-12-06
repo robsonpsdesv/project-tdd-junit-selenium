@@ -1,6 +1,6 @@
 package com.tdd.spring.service;
 
-import com.tdd.spring.ProdutoRepository;
+import com.tdd.spring.repository.ProdutoRepository;
 import com.tdd.spring.model.Produto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;

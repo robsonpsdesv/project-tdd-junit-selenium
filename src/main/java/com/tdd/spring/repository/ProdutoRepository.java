@@ -1,4 +1,4 @@
-package com.tdd.spring;
+package com.tdd.spring.repository;
 
 import com.tdd.spring.model.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
